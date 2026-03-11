@@ -36,8 +36,163 @@
         </div>
       </div>
       <div class="content">
-        
-    
+        <form>
+          <div class="form-container">
+            <fieldset>
+              <legend>Business Information</legend>
+              <div class="fields-grid">
+                <div class="form-control">
+                  <label for="suppliername">Supplier / Company Name</label>
+                  <input
+                    type="text"
+                    placeholder="Roofings Rolling Mills"
+                    required
+                  />
+                </div>
+                <div class="form-control">
+                  <label for="supplierCode">Supplier Code</label>
+                  <input type="text" placeholder="SUP-001 " required />
+                </div>
+                <div class="form-control">
+                  <label for="businessType">Business Type</label>
+                  <select name="businessType">
+                    <option disabled selected>Select type</option>
+                    <option value="1">Manufacturer</option>
+                    <option value="2">Wholesale</option>
+                    <option value="3">Distributor</option>
+                    <option value="4">Retailer</option>
+                    <option value="5">Importer</option>
+                    <option value="6">Local supplier</option>
+                  </select>
+                </div>
+                <div class="form-control">
+                  <label for="supplyCategory">Supply Category</label>
+                  <select name="supplyCategory">
+                    <option disabled selected>Select category</option>
+                    <option value="1">Building materials</option>
+                    <option value="2">Plumbing</option>
+                    <option value="3">Electrical</option>
+                    <option value="4">Paints & finishes</option>
+                    <option value="5">Hardware & tools</option>
+                    <option value="6">Roofing</option>
+                    <option value="7">Timber & Wood</option>
+                    <option value="8">General/mixed</option>
+                  </select>
+                </div>
+                <div class="form-control full-width">
+                  <label for="taxNumber">TIN / Tax Number</label>
+                  <input type="number" placeholder="1024060758" required />
+                </div>
+              </div>
+            </fieldset>
+            <fieldset>
+              <legend>Contact Details</legend>
+              <div class="fields-grid">
+                <div class="form-control">
+                  <label for="contactPerson">Contact Person</label>
+                  <input type="text" placeholder="e.g Hillary Oketch" />
+                </div>
+
+                <div class="form-control">
+                  <label for="role">Job Title/Role</label>
+                  <input type="text" placeholder="e.g Sales Rep" />
+                </div>
+                <div class="form-control">
+                  <label for="phone">Phone Number</label>
+                  <input type="tel" placeholder="Don't forget area code" />
+                </div>
+                <div class="form-control">
+                  <label for="whatsapp">Alternate/WhatsApp Number</label>
+                  <input type="tel" placeholder="Don't forget area code" />
+                </div>
+                <div class="form-control">
+                  <label for="email">Company email</label>
+                  <input type="email" />
+                </div>
+                <div class="form-control">
+                  <label for="website">Website</label>
+                  <input
+                    type="url"
+                    placeholder="https://company.com"
+                    required
+                  />
+                </div>
+              </div>
+            </fieldset>
+            <fieldset>
+              <legend>Physical Address</legend>
+              <div class="fields-grid">
+                <div class="form-control">
+                  <label for="address">Location Address</label>
+                  <input type="text" placeholder="Plot 7, Fifth Street" />
+                </div>
+                <div class="form-control">
+                  <label for="city">City</label>
+                  <input type="text" placeholder="Kampala" />
+                </div>
+                <div class="form-control full-width">
+                  <label for="country">Country</label>
+                  <input type="text" placeholder="Uganda" />
+                </div>
+              </div>
+            </fieldset>
+            <fieldset>
+              <legend>Bank & Payment Details</legend>
+              <div class="fields-grid">
+                <div class="form-control">
+                  <label>Bank Name</label>
+                  <select name="bank">
+                    <option value="" disabled selected>Select Bank</option>
+                    <option>Stanbic bank</option>
+                    <option>Centenary Bank</option>
+                    <option>dfcu Bank</option>
+                    <option>Absa Bank</option>
+                    <option>Standard Chartered Bank</option>
+                  </select>
+                </div>
+
+                <div class="form-control">
+                  <label>Account Name</label>
+                  <input type="text" />
+                </div>
+                <div class="form-control">
+                  <label for="accountNumber">Account Number</label>
+                  <input type="text" placeholder="1023476154679" />
+                </div>
+                <div class="form-control">
+                  <label for="mm">Mobile Money Number</label>
+                  <input type="tel" placeholder="+256......" />
+                </div>
+                <div class="form-control">
+                  <label>Credit Terms</label>
+                  <select name="creditTerms">
+                    <option value="" disabled selected>Select Terms</option>
+                    <option>Cash on Delivery</option>
+                    <option>Net 7 Days</option>
+                    <option>Net 14 Days</option>
+                    <option>Net 30 Days</option>
+                    <option>Net 60 Days</option>
+                    <option>Custom / Negotiated</option>
+                  </select>
+                </div>
+                <div class="form-control">
+                  <label>Credit limit(Sh)</label>
+                  <input
+                    type="number"
+                    
+                  />
+                </div>
+              </div>
+            </fieldset>
+           
+
+            <div class="button-container">
+              <button type="submit" class="form-submit-btn">
+                Register Supplier
+              </button>
+            </div>
+          </div>
+        </form>
       </div>
     </div>
   </body>

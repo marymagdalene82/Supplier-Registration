@@ -1,4 +1,4 @@
-ody {
+body {
   margin: 0;
   padding: 0;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -10,8 +10,9 @@ ody {
   column-gap: 10px;
 }
 .sidebar {
-  flex: 1.5;
+  flex: 1;
   border-right: 1.5px solid #000;
+  
 }
 
 .profile {
@@ -54,4 +55,8 @@ a {
   background-color: #d8d8d8;
   display: block;
   padding: 14px 24px;
+}
+.content {
+  flex: 3;
+  
 }
